@@ -1,6 +1,6 @@
 # Skill Develop
 
-My Project [Skill Develop](https://jovial-kalam-6bdb7a.netlify.app/contuct).
+My Project [Skill Develop](https://jovial-kalam-6bdb7a.netlify.app/).
 
 ## Available Scripts
 
