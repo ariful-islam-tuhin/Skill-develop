@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Spoken English",
+    "address": "sylhet",
+    "Price": 1000,
+    "picture": "https://learnwithratanjha.com/wp-content/uploads/2019/11/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Spoken France",
+    "address": "sylhet",
+    "price": 2000,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqgMGHETMARf7KtPGZm8SWCXZE08-lXb4EpA&usqp=CAU"
+  },
+  {
+    "id": 3,
+    "name": "Basic computer",
+    "address": "sylhet",
+    "Price": 3000,
+    "picture": "https://i.ytimg.com/vi/mybYCf4Mov4/maxresdefault.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Learn Arabic",
+    "address": "sylhet",
+    "price": "free",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQukcFngQvgQMnIrJeYCuvWO4pJkr2paM9dxg&usqp=CAU"
+  },
+  {
+    "id": 5,
+    "name": "agriculture",
+    "address": "sylhet",
+    "price": 2000,
+    "picture": "https://static1.shine.com/l/m/images/blog/agriculture-jobs.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Driving",
+    "address": "sylhet",
+    "price": 6000,
+    "picture": "https://image.shutterstock.com/image-vector/man-wearing-face-mask-showing-260nw-1932157409.jpg"
+  }
+]
