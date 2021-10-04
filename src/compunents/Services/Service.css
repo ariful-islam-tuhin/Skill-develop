@@ -1,4 +1,14 @@
 .col {
-  border: 1px solid rgba(240, 236, 18, 0.753);
+  border: 1px solid #81b441;
   padding: 50px;
+}
+.span {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.sspan {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
 }

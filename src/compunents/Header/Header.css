@@ -1,15 +1,15 @@
 Link {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .header-background {
   background-color: #f05a66;
 }
 .nabigation {
   display: inline;
-  margin-left: 750px;
+  margin-left: 650px;
 }
 .navlink {
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   color: white;
 }

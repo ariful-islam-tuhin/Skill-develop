@@ -2,8 +2,9 @@ import React from "react";
 
 const NotFound = () => {
   return (
-    <div>
+    <div className="not-found">
       <h1>404</h1>
+      <h2>Nothing is available here </h2>
     </div>
   );
 };

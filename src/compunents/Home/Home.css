@@ -1,3 +1,7 @@
 .total-service {
-  background-color: rgb(255, 255, 255);
+  background-color: #79b530e1;
+  padding: 20px;
+}
+.not-found {
+  padding: 300px 50px;
 }
