@@ -5,24 +5,32 @@ import "./Header.css";
 const Header = () => {
   const activeStyle = {
     fontWeight: "bold",
-    color: "red",
+    color: "black",
   };
   return (
-    <nav>
-      <h4>skill develop</h4>
-      <NavLink activeStyle={activeStyle} to="/home">
-        Home
-      </NavLink>
-      <NavLink activeStyle={activeStyle} to="/about">
-        About
-      </NavLink>
-      <NavLink activeStyle={activeStyle} to="/allservice">
-        All Service
-      </NavLink>
-      <NavLink activeStyle={activeStyle} to="/contuct">
-        Contuct
-      </NavLink>
-    </nav>
+    <div className="header-background">
+      <nav className="p-3 mb-2  text-white">
+        <span>skill develop</span>
+        <div className="nabigation">
+          <NavLink className="navlink" activeStyle={activeStyle} to="/home">
+            Home
+          </NavLink>
+          <NavLink className="navlink" activeStyle={activeStyle} to="/about">
+            About
+          </NavLink>
+          <NavLink
+            className="navlink"
+            activeStyle={activeStyle}
+            to="/allservice"
+          >
+            All Service
+          </NavLink>
+          <NavLink className="navlink" activeStyle={activeStyle} to="/contuct">
+            Contuct
+          </NavLink>
+        </div>
+      </nav>
+    </div>
   );
 };
 

@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Spoken English",
     "address": "sylhet",
-    "Price": 1000,
+    "price": 6000,
     "picture": "https://learnwithratanjha.com/wp-content/uploads/2019/11/1.jpg"
   },
   {
     "id": 2,
     "name": "Spoken France",
     "address": "sylhet",
-    "price": 2000,
+    "price": 4000,
     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqgMGHETMARf7KtPGZm8SWCXZE08-lXb4EpA&usqp=CAU"
   },
   {
     "id": 3,
     "name": "Basic computer",
     "address": "sylhet",
-    "Price": 3000,
+    "price": 10000,
     "picture": "https://i.ytimg.com/vi/mybYCf4Mov4/maxresdefault.jpg"
   },
   {
@@ -27,18 +27,62 @@
     "price": "free",
     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQukcFngQvgQMnIrJeYCuvWO4pJkr2paM9dxg&usqp=CAU"
   },
+
   {
     "id": 5,
-    "name": "agriculture",
-    "address": "sylhet",
-    "price": 2000,
-    "picture": "https://static1.shine.com/l/m/images/blog/agriculture-jobs.jpg"
-  },
-  {
-    "id": 6,
     "name": "Driving",
     "address": "sylhet",
     "price": 6000,
     "picture": "https://image.shutterstock.com/image-vector/man-wearing-face-mask-showing-260nw-1932157409.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Affiliate Marketing",
+    "address": "sylhet",
+    "price": 6000,
+    "picture": "https://easyaffiliate.com/wp-content/uploads/2020/02/affiliate-marketing-business-theme-background-picture-id529769387.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Graffic design",
+    "address": "sylhet",
+    "price": 5000,
+    "picture": "https://cosmosgroup.sgp1.cdn.digitaloceanspaces.com/thumbnail/lead/news/1071218_Graphic-Design.jpg"
+  },
+
+  {
+    "id": 8,
+    "name": "Learn HandWriting",
+    "address": "sylhet",
+    "price": 500,
+    "picture": "https://t7.leapfrog.com/images/lp-content-img/article-top-handwriting-tips.jpg"
+  },
+  {
+    "id": 9,
+    "name": "IELTS",
+    "address": "sylhet",
+    "price": 15000,
+    "picture": "https://www.britishcouncil.org.bd/sites/default/files/ielts_red_-_new_ielts_landing_page_preview_image.png"
+  },
+  {
+    "id": 10,
+    "name": "Web Develop",
+    "address": "sylhet",
+    "price": 15000,
+    "picture": "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/web_dev_pillar_page.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Web Design",
+    "address": "sylhet",
+    "price": 2000,
+    "picture": "https://cdn.toshost.com/i/blog/web-free-car-cover.png"
+  },
+  {
+    "id": 12,
+    "name": "Drawing",
+    "address": "sylhet",
+    "price": 2000,
+    "picture": "https://photoskart.com/wp-content/uploads/2019/11/a-pencil-sketch-of-polluted-nature-DG00113619.jpg"
   }
 ]

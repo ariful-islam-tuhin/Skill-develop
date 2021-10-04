@@ -10,11 +10,17 @@ const AllService = () => {
   }, []);
   return (
     <div>
-      <h2>service{services.length}</h2>
-      <div className="service-container">
-        {services.map((uService) => (
-          <UseServices key={uService.id} uService={uService}></UseServices>
-        ))}
+      <div className="total-service">
+        <h2> we provide total {services.length} service</h2>
+        <h3>choice your wish</h3>
+      </div>
+
+      <div className="container">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          {services.map((uService) => (
+            <UseServices key={uService.id} uService={uService}></UseServices>
+          ))}
+        </div>
       </div>
     </div>
   );
