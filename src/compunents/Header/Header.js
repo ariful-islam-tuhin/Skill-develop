@@ -9,18 +9,19 @@ const Header = () => {
   const element = <FontAwesomeIcon icon={faLaptopHouse} />;
 
   const activeStyle = {
-    fontWeight: "bold",
+    
     color: "black",
   };
   return (
     <div>
-      <nav className="text-whit header-background">
-        <span>
-          {" "}
-          {element}
-          Skill Develop
-        </span>
-        <div className="nabigation">
+      <nav className="text-whit header-background">      
+        <NavLink className="skill text-white" activeStyle={activeStyle} to="/home">
+            Skill Develop Center
+          </NavLink>
+
+
+        <div className='flex'>
+        <div className="nabigation topnav">
           <NavLink className="navlink" activeStyle={activeStyle} to="/home">
             Home
           </NavLink>
@@ -37,6 +38,7 @@ const Header = () => {
           <NavLink className="navlink" activeStyle={activeStyle} to="/contuct">
             Contuct
           </NavLink>
+        </div>
         </div>
       </nav>
     </div>

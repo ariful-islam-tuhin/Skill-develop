@@ -21,7 +21,7 @@ const About = () => {
         develop you socity and your country.
       </h5>
       <h2>Our Classrome</h2>
-      <img
+      <img className="about-image img-fluid max-width:100% height-auto"
         src="https://images.ctfassets.net/p0qf7j048i0q/7y7RtMKuzudxAtN68NzU3b/dfd2a4cdc7c9da04ad78fe8245e912a1/G911029504.jpg"
         alt=""
       />
