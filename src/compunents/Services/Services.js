@@ -7,8 +7,8 @@ const Services = (props) => {
 
   return (
     <div className="col">
-      <div className="col-sm">
-        <h3>Course:{id}</h3>
+      <div className="col-sm ">
+        <h3>{id}</h3>
         <h3>{name}</h3>
         <h3>{price}/-</h3>
         <img className="image" src={picture} alt="" />

@@ -1,9 +1,11 @@
 import React from "react";
+import { Wave } from "react-animated-text";
 
 const About = () => {
   return (
     <div>
-      <h1>About us </h1>
+      <h1>  <Wave text=" About us " /> </h1>
+     
       <h5 className="p 4">
         It is a skill development center, we provide total twelve service, there
         are allow all kind of people, It is a air condition classroom, Every day

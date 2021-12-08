@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Wave } from "react-animated-text";
 import Services from "../Services/Services";
 import "./Home.css";
+
+import ReactPlayer from 'react-player/youtube'
 
 const Home = () => {
   const [services, setServices] = useState([]);
@@ -10,14 +13,19 @@ const Home = () => {
       .then((data) => setServices(data));
   }, []);
 
-  const newService = services.slice(0, 4);
+  const newService = services.slice(0, 6);
 
   return (
     <div>
       <div className="total-service">
-        <h2> We provide total {services.length} Service</h2>
+        <br/>
+        <h2> <Wave text=" We provide total (12) Service" effect="stretch" effectChange={2.2} /> </h2>
         <h3>Choice your wish</h3>
       </div>
+
+  <ReactPlayer controls width="100%" url="https://youtu.be/TOuF7ZbcCUs"/>
+ 
+
 
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 g-4">

@@ -1,24 +1,24 @@
+import {  faLaptopHouse } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { faLaptop } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Header.css";
 
 const Header = () => {
-  const element = <FontAwesomeIcon icon={faLaptop} />;
+  const element = <FontAwesomeIcon icon={faLaptopHouse} />;
 
   const activeStyle = {
     fontWeight: "bold",
     color: "black",
   };
   return (
-    <div className="header-background">
-      <nav className="p-3   text-white">
-        <span className="span">
+    <div>
+      <nav className="text-whit header-background">
+        <span>
           {" "}
           {element}
-          <span className="sspan">Skill </span> Develop
+          Skill Develop
         </span>
         <div className="nabigation">
           <NavLink className="navlink" activeStyle={activeStyle} to="/home">
