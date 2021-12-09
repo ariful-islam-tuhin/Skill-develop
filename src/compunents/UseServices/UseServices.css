@@ -1,7 +1,23 @@
 .image {
   width: 80%px;
   height: 300px;
-  border-radius: 10%;
-  border: 2px solid black;
-  padding: 5px;
+  border-radius: 10%;  
+  padding: 25px;
+
+}
+.transform:hover .image{
+transform: scale(1.2) skew(-30deg);
+transition:transform 2s ease-in-out;
+
+
+}
+.transform:hover h3{
+transform: skew(30deg);
+transition:transform 2s ease-in-out;
+color:blue;
+
+
+}
+.transform{
+  overflow: hidden;
 }

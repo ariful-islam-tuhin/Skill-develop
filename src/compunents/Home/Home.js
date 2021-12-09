@@ -19,8 +19,8 @@ const Home = () => {
     <div>
       <div className="total-service">
         <br/>
-        <h2> <Wave text=" We provide total (12) Service" effect="stretch" effectChange={2.2} /> </h2>
-        <h3>Choice your wish</h3>
+        <h2 className="text-danger"> <Wave text=" We provide total (12) Service" effect="stretch" effectChange={2.2} /> </h2>
+        <h3 className="text-warning">Choice your wish</h3>
       </div>
 
   <ReactPlayer controls width="100%" url="https://youtu.be/TOuF7ZbcCUs"/>

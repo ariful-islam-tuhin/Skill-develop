@@ -11,7 +11,7 @@ const AllService = () => {
   return (
     <div>
       <div className="total-service">
-        <h2> we provide total {services.length} service</h2>
+        <h2> We provide total {services.length} service</h2>
         <h3>choice your wish</h3>
       </div>
 

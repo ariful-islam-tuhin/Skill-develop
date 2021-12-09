@@ -7,7 +7,7 @@ const Services = (props) => {
 
   return (
     <div className="col">
-      <div className="col-sm ">
+      <div className="transform col-sm ">
         <h3>{id}</h3>
         <h3>{name}</h3>
         <h3>{price}/-</h3>
